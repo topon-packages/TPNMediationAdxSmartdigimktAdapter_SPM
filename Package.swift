@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/onpro-ads/onproSDK_Spm", exact: "6.0.1")
+        .package(url: "https://github.com/onpro-ads/onproSDK_Spm", exact: "6.5.86")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkSmartdigimktAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkSmartdigimktAdapter/6.5.80.2.9/AnyThinkSmartdigimktAdapter-6.5.80.2.9.zip",
-            checksum: "4f294cf69ad76d150e7e5ef328fad1efe25b21c876d24b1d53573c871876f1dc"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkSmartdigimktAdapter/60586.2.10/AnyThinkSmartdigimktAdapter-60586.2.10.zip",
+            checksum: "a2aa6f1f812b917c16620e258c8547d7d9a4c2b29f015d96dcb09aa79c3d9d57"
         ),
         .target(
             name: "TPNMediationAdxSmartdigimktAdapterTarget",
